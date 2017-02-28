@@ -8,10 +8,10 @@ kramdown:
 permalink:        /posts/:title/
 
 # Setup
-title:            Rajasekar Elango's Blog
+title:            Adrian Borucki's Blog
 tagline:          ""
-description:      'Reflections on programming, technology, books.'
-url:              http://erajasekar.com
+description:      'Reflections on technology, society, etc.'
+url:              http://danlupei.github.io
 baseurl:          '/'
 paginate:         3
 excerpt_separator: "<br>"
@@ -22,16 +22,16 @@ gems:
 - jekyll-sitemap
 
 author:
-  name:           'Rajasekar Elango'
-  url:            http://erajasekar.com
+  name:           'Adrian Borucki'
+  url:            http://danlupei.github.io
 
 # Custom vars
 version:          1.3.0
 
 github:
-  repo:           https://github.com/erajasekar/erajasekar.github.io
+  repo:           https://github.com/danlupei/danlupei.github.io
 
-disqusShortName:     erajasekarblog
-twitterAccountName:   erajasekar
-facebookDevAppId:   1599301546964793
-googleAnalyticsSuperProxyQuery:   http://favorable-mix-751.appspot.com/query?id=ahNzfmZhdm9yYWJsZS1taXgtNzUxchULEghBcGlRdWVyeRiAgICAgICACgw&format=json
+disqusShortName:     danlupeiblog
+twitterAccountName:   la_danpei
+#facebookDevAppId:
+#googleAnalyticsSuperProxyQuery:

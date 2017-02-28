@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: http://erajasekar.com/sitemap.xml
+Sitemap: http://danlupei.github.io/sitemap.xml

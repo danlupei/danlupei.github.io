@@ -4,7 +4,7 @@ title: About Me
 ---
 
 <div itemscope itemtype="http://schema.org/Person">
-<img  itemprop="image" src="{{ site.baseurl }}assets/images/profile.jpg" alt="{{site.author.name}}" height="150px" width="150px" />
+<img  itemprop="image" src="{{ site.baseurl }}assets/images/profile.png" alt="{{site.author.name}}" height="150px" width="150px" />
 
 
 </div>

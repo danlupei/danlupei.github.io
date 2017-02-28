@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: http://danlupei.github.io/sitemap.xml

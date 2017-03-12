@@ -4,9 +4,6 @@ kramdown:
   input: 		GFM
   syntax_highlighter: 	rouge
 
-# Permalinks
-permalink:           /posts/:title/
-
 # Setup
 title:            "Adrian Borucki's Blog"
 tagline:          'Reflections on technology, society, etc.'

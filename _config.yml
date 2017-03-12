@@ -1,38 +1,38 @@
 # Dependencies
-markdown:         kramdown
+markdown: 		kramdown
 kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+  input: 		GFM
+  syntax_highlighter: 	rouge
 
 # Permalinks
-permalink:        /posts/:title/
+permalink:           /posts/:title/
 
 # Setup
-title:            Adrian Borucki's Blog
-tagline:          ""
+title:            "Adrian Borucki's Blog"
+tagline:          'Reflections on technology, society, etc.'
 description:      'Reflections on technology, society, etc.'
-url:              http://danlupei.github.io
-baseurl:          '/'
-paginate:         3
-excerpt_separator: "<br>"
-gems:
-- jekyll-mentions
-- jemoji
-- jekyll-redirect-from
-- jekyll-sitemap
-- jekyll-feed
+url:              https://danlupei.github.io
+baseurl:          ''
+paginate:         5
+#excerpt_separator: "<br>"
+#gems:
+#- jekyll-mentions
+#- jemoji
+#- jekyll-redirect-from
+#- jekyll-sitemap
+#- jekyll-feed
 
 author:
   name:           'Adrian Borucki'
-  url:            http://danlupei.github.io
+  url:            https://danlupei.github.io
 
 # Custom vars
-version:          1.3.0
+version:          1.0.0
 
 github:
   repo:           https://github.com/danlupei/danlupei.github.io
 
-disqusShortName:     danlupei
+disqusShortName:      danlupei
 twitterAccountName:   la_danpei
 #facebookDevAppId:
 #googleAnalyticsSuperProxyQuery:

@@ -2,59 +2,28 @@
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="author" content="{{ @site.author.name }}">
 
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.author.name }} &middot; {{ site.description }}
+      {{ site.title }} &middot; {{ site.tagline }}
     {% else %}
-      {{ page.title }} &middot; {{ site.author.name }}
+      {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}assets/css/all.min.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/syntax.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}assets/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="{{ site.baseurl }}assets/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-
-  <link rel="canonical" href="{{ page.url }}" />
-
-  <!-- This code is very long to be in single line, but thats the best way to avoid unneccessary spaces -->
-  {% capture description %}{% if page.title == "Home" %}{{ site.description }}{% else %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}
-  {% endif %}{% endif %}{% endcapture %}
-
-  {% capture formatted_description %}{{ description | strip_html | strip_newlines  | truncate:300 }}{% endcapture %}
-
-  <meta name="description" content="{{ formatted_description }}" />
-
-  <!-- optimize meta tags for facebook sharing -->
-  <meta property="og:description" content="{{ formatted_description }}">
-  <meta property="og:title" content="{{ page.title}}" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="{{ site.title }}"/>
-  <meta property="og:url" content="{{ site.url}}{{ page.url }}" />
-  <meta property="article:author" content="{{ site.author.name }}" />
-  <meta property="og:image" content="{{ site.url }}/assets/images/profile_small.png" />
-
-  <!-- Add twitter card meta tags for twitter sharing -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="{{ site.title }}" />
-  <meta name="twitter:title" content="{{ page.title}}" />
-  <meta name="twitter:description" content="{{ formatted_description }}" />
-  <meta name="twitter:image" content="{{ site.url }}/assets/images/profile_small.png" />
-  <meta name="twitter:url" content="{{ site.url}}{{ page.url }} />
-
-
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="/libs/jquery.js"><\/script>')</script>
-  <script src="/libs/toc.js"></script>
 </head>

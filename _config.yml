@@ -15,3 +15,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+author:
+  name: Adrian Borucki
+  twitter: la_danpei

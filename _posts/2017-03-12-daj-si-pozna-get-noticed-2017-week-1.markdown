@@ -3,7 +3,7 @@ layout: post
 title: "Daj Się Poznać/Get Noticed! 2017. Week 1"
 date: "2017-03-12 17:17:50 +0100"
 tags: DSP2017
-categories: coding
+categories: coding deep-learning
 ---
 
 # Preliminaries
@@ -14,4 +14,4 @@ We are going to tackle the [Dogs vs. Cats Redux: Kernels Edition](https://www.ka
 Because our work is done in Jupyter notebooks, which lend themselves very well to presenting code an its output,
 most of what you can see can be read from those notebooks present in my GitHub repo.
 
-### [Week 1 notebook](https://github.com/danlupei/fastai-dl1-coursework/blob/master/nbs/lesson1.ipynb)
+### [Week 1 notebook](https://github.com/danlupei/fastai-dl1-coursework/blob/master/nbs/week1.ipynb)

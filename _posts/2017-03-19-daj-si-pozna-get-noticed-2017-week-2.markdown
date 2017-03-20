@@ -17,4 +17,7 @@ Another thing is that I made a script to "clip" probabilities returned by my net
 This is a trick to not get on the "bad side" of this competition's scoring function - it will punish you hard if you answer wrong
 and are confident at it.
 
+Running VGG16-based neural net for one epoch and applying aforementioned clipping gives roughly top 25% score on Kaggle's Dogs and Cats
+competition. Pretty simple so far. Of course, we will aim for top 10% scores in the long term, but I have to learn much more for that.
+
 ### [Week 2 notebook](https://github.com/danlupei/fastai-dl1-coursework/blob/master/nbs/week2.ipynb)
